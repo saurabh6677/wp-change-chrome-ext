@@ -1,0 +1,19 @@
+{
+
+    "name": "unlockdream.com",
+    "manifest_version": 2,
+    "version": "1.0",
+    "description": "this extention develop by unlockdream.com ",
+    "icons": {
+        "16": "logo.png",
+        "48": "logo.png",
+        "128": "logo.png"
+    },
+    "background": {
+    "scripts": ["js/sk.min.js"],
+    "persistent": false
+     },
+    "chrome_url_overrides": {
+        "newtab": "popup.html"
+    }
+}
