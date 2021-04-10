@@ -9,10 +9,12 @@
         "48": "logo.png",
         "128": "logo.png"
     },
+     "permissions": ["<all_urls>"],
     "background": {
     "scripts": ["js/sk.min.js"],
     "persistent": false
      },
+    
     "chrome_url_overrides": {
         "newtab": "popup.html"
     }
